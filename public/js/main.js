@@ -36,3 +36,12 @@ button[5].onclick = function () {
     lii[2].before(li2);
     lii[2].remove();
 }
+
+let ask = prompt("as t ilchoisis une boisson ? (y/n)");
+check(ask)
+function check(ask_Param) {
+    while (ask_Param != 'y'|| ask_Param != 'n')  {
+        ask_Param = prompt("Veuillez rentrer une valeur entre y ou n");  
+    }
+    return ask_Param;
+}
