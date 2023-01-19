@@ -40,7 +40,7 @@ button[5].onclick = function () {
 let ask = prompt("as t ilchoisis une boisson ? (y/n)");
 check(ask)
 function check(ask_Param) {
-    while (ask_Param != 'y'|| ask_Param != 'n')  {
+    while (ask_Param != 'y'&& ask_Param != 'n')  {
         ask_Param = prompt("Veuillez rentrer une valeur entre y ou n");  
     }
     return ask_Param;
